@@ -27,7 +27,7 @@
 	{{ range .Site.Params.customCSS -}}
 	<link rel="stylesheet" href="{{ . | relURL }}">
 	{{- end }}
-	<link rel="shortcut" href="{{ "favicon.ico" | relURL }}">
+	<link rel="shortcut" href="favicon.ico">
 	{{- if not .Site.IsServer }}
 		{{ template "_internal/google_analytics_async.html" . }}
 	{{- end }}
