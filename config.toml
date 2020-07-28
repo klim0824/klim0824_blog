@@ -6,12 +6,12 @@ paginate = "10" # Number of posts per page
 
 [Author] # Used in authorbox
   name = "klim0824"
-  bio = "フロントエンドエンジニアを目指すマークアップエンジニア兼バックエンドエンジニア見習い"
+  bio = "フロントエンドエンジニアを目指すマークアップエンジニア兼バックエンドエンジニア見習いによるブログ"
   avatar = "img/klim0824.jpg"
 
 [Params]
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
-  description = "フロントエンドエンジニアを目指すマークアップエンジニア兼バックエンドエンジニア見習い" # Site description. Used in meta description
+  description = "フロントエンドエンジニアを目指すマークアップエンジニア兼バックエンドエンジニア見習いによるブログ" # Site description. Used in meta description
   images = ["img/klim0824.jpg"]
   copyright = "klim0824" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
