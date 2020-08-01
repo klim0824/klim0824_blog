@@ -1,6 +1,6 @@
 ---
 title: "Hugoでブログを構築した（HugoセットアップからGithubにgit pushするまで）"
-date: 2020-08-02T00:10:07+09:00
+date: 2020-08-01T20:12:07+09:00
 draft: false
 description: "色々思うところがあって、Hugoでブログを構築することに決めた。今までははてなブログに少しだけ記事を投稿していたけれど、どうせなら1から作ってみようと思ったのだった。"
 categories:
@@ -240,11 +240,11 @@ draft: false
 
 ## Hugoのインストール
 
-```bash
+​```bash
 $ brew install hugo
 $ hugo version
 Hugo Static Site Generator v0.74.2/extended darwin/amd64 BuildDate: unknown
-```
+​```
 
 ## Hugoでサイトの雛形をローカルに構築する
 
@@ -311,6 +311,7 @@ Press Ctrl+C to stop
   
 
 - 記事（http://localhost:1313/post/sample/）
+	
 	- ![article]( ./article.png )
 
 やったぜ！
@@ -340,7 +341,6 @@ $ git push origin master
 ## todo
 - `config.toml` を鍛える
 - HTML/CSS/JavaScriptを追加・編集する
-- シンタックスハイライト適応
 - GithubとNetlifyへの連携
 - NetlifyとSlackをIFTTT経由で無料で連携
 - はてなブログからいくつか記事をインポート
@@ -353,9 +353,8 @@ $ git push origin master
 - [Hugo で新規の Web サイトを作成する | まくまくHugo/Goノート]( https://maku77.github.io/hugo/basic/create-site.html )
   - 書いてから読み返すと、ほぼ内容が一緒…独自性が薄くてすみません😓	
 - [Hugo によるブログ作成と mainroad テーマのカスタマイズ - terashim.com]( https://terashim.com/posts/create-hugo-blog-and-customize-mainroad-theme/ )
-  - 「`config.toml` を鍛える」というtodoに思いっきり関連する内容。
+  - 「`config.toml` を鍛える」というtodoに思いっきり関連する内容
 - [Hugoのテーマを何個か作ったので知見をまとめてみる - blog.unresolved.xyz]( https://blog.unresolved.xyz/how-to-make-of-hugo-theme )
-  - テーマのオーバーライドの仕組みはここが参考になった。
 
 
 
