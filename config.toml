@@ -5,6 +5,8 @@ theme = "mainroad"
 paginate = "10" # Number of posts per page
 hasCJKLanguage = true # 中国語・日本語・韓国語の単語カウントを有効にする
 summaryLength = 100 # サマリーの長さの単語数
+pygmentsUseClasses = true
+pygmentsCodefences = true
 
 [Author] # Used in authorbox
   name = "klim0824"
