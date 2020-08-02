@@ -19,3 +19,26 @@ h1, h2, h3, h4, h5, h6,
 .btn{
     background-color: var(--main-black);
 }
+
+.post__content h2{
+    margin-top: 3.75rem;
+}
+.post__content h3{
+    margin-top: 2.5rem;
+}
+.post__content h4{
+    margin-top: 1.875rem;
+}
+
+.post__content ol li,
+.post__content ul li{
+    margin-bottom: 0.625rem;
+}
+.post__content ol p,
+.post__content ul p{
+    margin-bottom: 0;
+}
+.post__content li li,
+.post__content li li{
+    margin-bottom: 0;
+}
