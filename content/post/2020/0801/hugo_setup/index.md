@@ -1,5 +1,5 @@
 ---
-title: "Hugoでブログを構築した（HugoセットアップからGithubにgit pushするまで）"
+title: "Hugoでブログを構築した（HugoセットアップからGitHubにgit pushするまで）"
 date: 2020-08-01T20:12:07+09:00
 draft: false
 description: "色々思うところがあって、Hugoでブログを構築することに決めた。今までははてなブログに少しだけ記事を投稿していたけれど、どうせなら1から作ってみようと思ったのだった。"
@@ -21,7 +21,7 @@ thumbnail: "/post/2020/0801/hugo_setup/hugo-logo-wide.svg"
 - macOS Catalina
 - Homebrew 2.4.9
 - Git 2.27.0
-- Githubのアカウントは取得済み かつ 基本的な操作は把握済み
+- GitHubのアカウントは取得済み かつ 基本的な操作は把握済み
 
 
 
@@ -96,13 +96,13 @@ title = "My New Hugo Site"
 
 
 
-## Hugoのテーマを適応する
+## Hugoのテーマを適用する
 
-今回はMainroadというテーマを適応することにした。
+今回はMainroadというテーマを適用することにした。
 
 - [Mainroad | Hugo Themes]( https://themes.gohugo.io/mainroad/ )
   - [Mainroad Demo]( https://themes.gohugo.io/theme/mainroad/ )
-  - [Vimux/Mainroad Github]( https://github.com/Vimux/mainroad )
+  - [Vimux/Mainroad GitHub]( https://github.com/Vimux/mainroad )
 
 基本的に `themes/[テーマ名]` ディレクトリを作成し、その中にテーマのファイルを配置する流れになるが、単に `git clone` するだけだと、サイトの設定や記事をGitで管理する時にそのテーマ自体も配下に含まれてしまう。
 できるなら `git submodule` を活用して、サイト本体の管理とテーマの管理を分離しておきたい。こうすることで、テーマはテーマの配信元で管理されるようになり、自らがわざわざ管理する必要はなくなる。
@@ -227,7 +227,7 @@ draft: true
 
 ```markdown
 ---
-title: "Hugo+Github+Netifyでブログを構築した（HugoセットアップからGithubにgit pushするまで）"
+title: "Hugo+GitHub+Netifyでブログを構築した（HugoセットアップからGitHubにgit pushするまで）"
 date: 2020-08-01T20:12:07+09:00
 draft: false
 ---
@@ -276,7 +276,7 @@ $ hugo server -D
 ```bash
 $ hugo server -D
 
-# ここにWORNが表示されるけど今回はスルーで
+# ここにWARNが表示されるけど今回はスルーで
 
                    | EN  
 -------------------+-----
@@ -320,7 +320,7 @@ Press Ctrl+C to stop
 
 ## Githibにレポジトリを作成 & git push
 
-Githubにリポジトリを作成する具体的な方法は割愛。ここではリポジトリを作成し終わって、 `git@github.com:klim0824/klim0824.git` というURLを生成したという体で話を進める。
+GitHubにリポジトリを作成する具体的な方法は割愛。ここではリポジトリを作成し終わって、 `git@github.com:klim0824/klim0824.git` というURLを生成したという体で話を進める。
 
 これまでの作業を `git commit` しておく（テーマをcloneした時点で `git init` しているため、すんなりgitコマンドが通るようになっている）。そして、 `git remote add origin` でリモートリポジトリを登録しておき、最後は `git push` する。
 
@@ -341,7 +341,7 @@ $ git push origin master
 ## todo
 - `config.toml` を鍛える
 - HTML/CSS/JavaScriptを追加・編集する
-- GithubとNetlifyへの連携
+- GitHubとNetlifyへの連携
 - NetlifyとSlackをIFTTT経由で無料で連携
 - はてなブログからいくつか記事をインポート
 
