@@ -18,9 +18,21 @@ thumbnail: "/post/2020/0801/hugo_setup/hugo-logo-wide.svg"
 
 ## 想定環境
 
-- macOS Catalina
-- Homebrew 2.4.9
-- Git 2.27.0
+```bash
+$ sw_vers
+ProductName:	Mac OS X
+ProductVersion:	10.15.6  # catalina
+BuildVersion:	19G73
+
+$ brew -v
+Homebrew 2.4.9
+Homebrew/homebrew-core (git revision edab7; last commit 2020-08-04)
+Homebrew/homebrew-cask (git revision 8677d; last commit 2020-08-04)
+
+$ git --version
+git version 2.27.0
+```
+
 - GitHubのアカウントは取得済み かつ 基本的な操作は把握済み
 
 
@@ -50,7 +62,7 @@ $ hugo new site klim0824
 ```
 
 これを叩くことによって、 `klim0824` ディレクトリが生成され、そのディレクトリ内に雛形が生成される。
-すでにプロジェクト名のディレクトリを作成済み & そのディレクトリ内に移動している場合は以下のように。
+すでにプロジェクト名のディレクトリを作成済み & そのディレクトリ内に移動している場合は以下のように `.` を用いる。
 
 ```bash
 $ hugo new site .
