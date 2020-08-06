@@ -4,10 +4,12 @@ date: 2020-08-01T20:12:07+09:00
 draft: false
 description: "色々思うところがあって、Hugoでブログを構築することに決めた。今までははてなブログに少しだけ記事を投稿していたけれど、どうせなら1から作ってみようと思ったのだった。"
 categories:
-  - "Hugo"
+  - "Frontend"
 tags:
+  - "Git"
+  - "GitHub"
   - "Hugo"
-thumbnail: "/post/2020/0801/hugo_setup/hugo-logo-wide.svg"
+thumbnail: "/post/2020/08/01/hugo_setup/hugo-logo-wide.svg"
 ---
 
 色々思うところがあって、Hugoでブログを構築することに決めた。今までははてなブログに少しだけ記事を投稿していたけれど、どうせなら1から作ってみようと思ったのだった。
