@@ -1,8 +1,12 @@
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
 [context.production.environment]
   HUGO_VERSION = "0.74.2"
 
 [[redirects]]
-    from = "https://eloquent-banach-9e11fe.netlify.app/*"
-    to = "https://blog.klim0824.dev/:splat"
-    status = 301
-    force = true
+  from = "https://eloquent-banach-9e11fe.netlify.app/*"
+  to = "https://blog.klim0824.dev/:splat"
+  status = 301
+  force = true
