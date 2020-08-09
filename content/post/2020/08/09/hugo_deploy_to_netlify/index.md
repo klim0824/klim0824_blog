@@ -10,7 +10,7 @@ tags:
   - "GitHub"
   - "Hugo"
   - "Netlify"
-thumbnail: "/post/2020/08/07/hugo_deploy_to_netlify/netlify_logo.svg"
+thumbnail: "/post/2020/08/09/hugo_deploy_to_netlify/netlify_logo.svg"
 ---
 
 前回の記事でローカル上でHugoの環境構築を行い、静的サイトを生成してGitHubにgit pushするところまで記事にした。
