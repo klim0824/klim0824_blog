@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 
-.post .list__header{
+.post .list__header a{
     display: flex;
 }
 .post .list__header .list__thumbnail{

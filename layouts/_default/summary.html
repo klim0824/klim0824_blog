@@ -1,17 +1,15 @@
 <article class="list__item post">
 	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="{{ .RelPermalink }}" rel="bookmark">
-			{{ .Title }}
-			</a>
-		</h3>
-		{{- if .Params.thumbnail }}
-		<figure class="list__thumbnail">
-			<a href="{{ .Permalink }}">
+		<a href="{{ .RelPermalink }}" rel="bookmark">
+			<h3 class="list__title post__title ">
+				{{ .Title }}
+			</h3>
+			{{- if .Params.thumbnail }}
+			<figure class="list__thumbnail">
 				<img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" />
-			</a>
-		</figure>
-		{{- end }}
+			</figure>
+			{{- end }}
+		</a>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		{{ .Summary }}
