@@ -1,6 +1,6 @@
 ---
 title: "Hugoでブログを構築した（HugoをNetlifyにデプロイする）"
-date: 2020-08-06T12:05:51+09:00
+date: 2020-08-09T18:05:51+09:00
 draft: false
 description: "GitHubとNetlify（無料枠）を連携させてgit pushする度にデプロイが行われるよう設定を行う。"
 categories:
