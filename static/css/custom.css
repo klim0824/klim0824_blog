@@ -28,6 +28,11 @@ h1, h2, h3, h4, h5, h6,
     margin: auto auto auto .5rem ;
 }
 
+_:-ms-lang(x)::-ms-backdrop, .post .list__header .list__thumbnail img,
+_:-ms-lang(x)::-ms-backdrop, .post .post__thumbnail img{
+  width: auto\9;
+}
+
 .post .post__content{
     margin: .5rem auto;
 }
