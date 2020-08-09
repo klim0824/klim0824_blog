@@ -7,21 +7,20 @@ body {
         sans-serif;
 }
 
-:root {
-    --main-black: #333;
-}
 body,
 h1, h2, h3, h4, h5, h6,
 .logo__title{
-    color: var(--main-black);
+    color: #333;
 }
 .toc__title,
 .btn{
-    background-color: var(--main-black);
+    background-color: #333;
 }
 
 
 .post .list__header a{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .post .list__header .list__thumbnail{
@@ -39,8 +38,12 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .post .list__footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
 .post .list__footer .list__footer-readmore{
     margin: 0 0 0 auto;
