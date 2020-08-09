@@ -20,6 +20,32 @@ h1, h2, h3, h4, h5, h6,
     background-color: var(--main-black);
 }
 
+
+.post .list__header{
+    display: flex;
+}
+.post .list__header .list__thumbnail{
+    max-width: none;
+    margin: auto auto auto .5rem ;
+}
+
+.post .post__content{
+    margin: .5rem auto;
+}
+@media screen and (min-width: 767px) {
+    .post .post__content{
+        margin: .75rem auto;
+    }
+}
+
+.post .list__footer{
+    display: flex;
+    align-items: flex-end;
+}
+.post .list__footer .list__footer-readmore{
+    margin: 0 0 0 auto;
+}
+
 .post__content h2{
     margin-top: 3.75rem;
 }
