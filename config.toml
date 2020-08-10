@@ -64,10 +64,10 @@ summaryLength = 100 # サマリーの長さの単語数
 #   bitbucket = "klim0824"
 
 # Custom social links
-# [[Params.widgets.social.custom]]
-#   title = "Youtube"
-#   url = "https://youtube.com/user/username"
-#   icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+[[Params.widgets.social.custom]]
+  title = " Official Website"
+  url = "https://www.klim0824.dev/"
+  icon = "svg/author.svg" # Optional. Path relative to "layouts/partials"
 
 # [[Params.widgets.social.custom]]
 #   title = "My Home Page"
