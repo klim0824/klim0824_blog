@@ -54,7 +54,7 @@ summaryLength = 100 # サマリーの長さの単語数
 [Params.widgets.social]
   # Enable parts of social widget
   facebook = "klim0824"
-  twitter = "klim08241"
+  twitter = "klim0824"
   instagram = "klim0824"
   github = "klim0824"
   email = "klim0824@live.jp"
