@@ -5,6 +5,7 @@ theme = "mainroad"
 paginate = "10" # Number of posts per page
 hasCJKLanguage = true # 中国語・日本語・韓国語の単語カウントを有効にする
 summaryLength = 100 # サマリーの長さの単語数
+googleAnalytics = "UA-5504934-5"
 
 [Author] # Used in authorbox
   name = "klim0824"
@@ -43,7 +44,7 @@ summaryLength = 100 # サマリーの長さの単語数
   list = "right"  # Configure layout for list pages
   single = true # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["recent", "categories", "taglist", "social"]
+  widgets = ["recent", "categories", "taglist", "social", "links"]
   # alternatively "ddg-search" can be used, to search via DuckDuckGo
   # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
 
@@ -64,11 +65,13 @@ summaryLength = 100 # サマリーの長さの単語数
 #   bitbucket = "klim0824"
 
 # Custom social links
-[[Params.widgets.social.custom]]
+[Params.widgets.links]
+[[Params.widgets.links.custom]]
   title = " Official Website"
   url = "https://www.klim0824.dev/"
-  icon = "svg/author.svg" # Optional. Path relative to "layouts/partials"
+  # icon = "svg/author.svg" # Optional. Path relative to "layouts/partials"
 
-# [[Params.widgets.social.custom]]
-#   title = "My Home Page"
-#   url = "http://example.com"
+[[Params.widgets.links.custom]]
+  title = "Disclaimer"
+  url = "/disclaimer/index.html"
+  # icon = "svg/author.svg" # Optional. Path relative to "layouts/partials"
