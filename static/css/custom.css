@@ -72,7 +72,6 @@ _:-ms-lang(x)::-ms-backdrop, .post .post__thumbnail img{
 .post__content ul p{
     margin-bottom: 0;
 }
-.post__content li li,
 .post__content li li{
     margin-bottom: 0;
 }
@@ -90,7 +89,10 @@ _:-ms-lang(x)::-ms-backdrop, .post .post__thumbnail img{
         display: none;
     }
     .wrapper.flex {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     a.list__footer-readmore[href]::after,
     .content a[href]::after,
