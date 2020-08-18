@@ -63,6 +63,13 @@ _:-ms-lang(x)::-ms-backdrop, .post .post__thumbnail img{
 .post__content h4{
     margin-top: 1.875rem;
 }
+.post__content img{
+    margin: .75rem auto 3rem;
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,.8))
+}
+.post__content li img{
+    margin-bottom: .5rem;
+}
 
 .post__content ol li,
 .post__content ul li{
