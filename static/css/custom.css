@@ -80,3 +80,34 @@ _:-ms-lang(x)::-ms-backdrop, .post .post__thumbnail img{
 .u-text-center{
     text-align: center;
 }
+
+
+@media print {
+    .logo__img,
+    .post__thumbnail,
+    .widget-search__form,
+    .authorbox__avatar{
+        display: none;
+    }
+    .wrapper.flex {
+        flex-direction: column;
+    }
+    a.list__footer-readmore[href]::after,
+    .content a[href]::after,
+    .widget-social__item a[href]::after,
+    .widget-social__content a[href]::after {
+        content: " ( " attr(href) " )";
+    }
+    .list__footer-readmore,
+    .toc__title,
+    .tags__item,
+    .widget-taglist__link,
+    .widget-social__link,
+    svg,
+    .highlight pre{
+        color: #333 !important;
+        fill: #333 !important;
+        background-color: #fff !important;
+        /* filter: invert(1) hue-rotate(180deg) !important; */
+    }
+}
