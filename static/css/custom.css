@@ -101,6 +101,13 @@ _:-ms-lang(x)::-ms-backdrop, .post .post__thumbnail img{
             -ms-flex-direction: column;
                 flex-direction: column;
     }
+    .content img{
+        display: block;
+        width: 50%;
+        margin: auto;
+        filter: none;
+    }
+
     a.list__footer-readmore[href]::after,
     .content a[href]::after,
     .widget-social__item a[href]::after,
