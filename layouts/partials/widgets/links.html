@@ -12,5 +12,19 @@
 		</div>
 		{{ end }}
 	</div>
+	<h4 class="widget-social__title widget__title">QR CODE</h4>
+		<div class="widget-social__item widget__item u-text-center">
+			<a href="{{ .Site.BaseURL}}">
+				<img
+					srcset="{{ .Site.BaseURL}}img/qrcode.png 1x,
+							{{ .Site.BaseURL}}img/qrcode@2x.png 2x" 
+					src="{{ .Site.BaseURL}}img/qrcode.png" 
+					alt="QR Code"
+					width="128"
+					height="128"
+				>
+			</a>
+		</div>
+	</div>
 </div>
 {{- end }}

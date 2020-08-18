@@ -76,3 +76,7 @@ _:-ms-lang(x)::-ms-backdrop, .post .post__thumbnail img{
 .post__content li li{
     margin-bottom: 0;
 }
+
+.u-text-center{
+    text-align: center;
+}
