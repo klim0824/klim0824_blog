@@ -31,8 +31,8 @@ googleAnalytics = "UA-5504934-5"
 #   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
 #   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   highlightColor = "darkslateblue" # Override highlight color
-  customCSS = ["css/custom.css"] # Include custom CSS files
   # customJS = ["js/custom.js"] # Include custom JS files
+  customCSS = ["style/custom.css"] # Include custom CSS files
 
 [Params.logo]
   image = "img/klim0824.jpg" # Logo image. Path relative to "static"
