@@ -1,0 +1,8 @@
+{{ if .Param "toc" }}
+<details class="post__toc toc">
+	<summary class="toc__title">{{ T "toc_title" }}</summary>
+	<div class="toc__menu">
+		{{ .TableOfContents }}
+	</div>
+</details>
+{{ end }}

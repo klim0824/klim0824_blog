@@ -70,6 +70,9 @@ _:-ms-lang(x)::-ms-backdrop, .post .post__thumbnail img{
 .post__content li img{
     margin-bottom: .5rem;
 }
+summary{
+    cursor: pointer;
+}
 
 .post__content ol li,
 .post__content ul li{
