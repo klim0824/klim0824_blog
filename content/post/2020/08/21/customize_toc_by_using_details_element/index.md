@@ -1,5 +1,5 @@
 ---
-title: "目次を `details` 要素で書き直した話"
+title: "目次を details 要素で書き直した話"
 date: 2020-08-21T22:12:59+09:00
 draft: false
 description: "detailsというHTMLタグを使って、目次機能にアコーディオンみたいな折りたたみ機能を持たせた話と気をつけたいこと2つ。"
