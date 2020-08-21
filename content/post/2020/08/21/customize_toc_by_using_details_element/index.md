@@ -25,7 +25,7 @@ tags:
 
 説明はMDNに丸投げする😇
 
-- [<details>: 詳細折りたたみ要素 - HTML: HyperText Markup Language | MDN]( https://developer.mozilla.org/ja/docs/Web/HTML/Element/details )
+- [&lt;details&gt; : 詳細折りたたみ要素 - HTML: HyperText Markup Language | MDN]( https://developer.mozilla.org/ja/docs/Web/HTML/Element/details )
 
 > **HTML の詳細折りたたみ要素** (**`<details>`**) は、ウィジェットが open 状態になった時のみ情報が表示される折りたたみウィジェットを作成します。概要やラベルは [`<summary>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/summary) 要素を使用して提供することができます。
 > 折りたたみウィジェットはふつう、回転して開閉状態を示す小さな三角形を使用し、その隣のラベルと共に画面上に表現されます。 `<details>` 要素の最初の子要素が `<summary>` の場合は、 `<summary>` 要素が折りたたみウィジェットのラベルとして使用されます。
