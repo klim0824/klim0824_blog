@@ -137,7 +137,7 @@ window.onafterprint = afterPrint;
 
 IEではや古いEdgeだと使えないけど、まいっか…。気が向いたらポリフィルを入れておこう。
 
-![caniuse](/Users/suzuki/git/hobbies/klim0824/content/post/2020/08/21/customize_toc_by_using_details_element/img/caniuse.png)
+![caniuse](img/caniuse.png)
 
 
 
