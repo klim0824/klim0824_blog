@@ -12,11 +12,22 @@ h1, h2, h3, h4, h5, h6,
 .logo__title{
     color: #333;
 }
+.logo{
+    text-align: center;
+}
 .toc__title,
 .btn{
     background-color: #333;
 }
-
+.btn:active, 
+.btn:focus,
+.toc__title:hover,
+.toc__title:active, 
+.toc__title:focus,
+::selection {
+    color: #fff;
+    background-color: darkslateblue;
+}
 
 .post .list__header a{
     display: -webkit-box;
@@ -30,7 +41,7 @@ h1, h2, h3, h4, h5, h6,
 
 _:-ms-lang(x)::-ms-backdrop, .post .list__header .list__thumbnail img,
 _:-ms-lang(x)::-ms-backdrop, .post .post__thumbnail img{
-  width: auto;
+    width: auto;
 }
 
 .post .post__content{
@@ -88,6 +99,10 @@ summary{
 }
 .post__content li li{
     margin-bottom: 0;
+}
+
+.widget__content{
+    margin-left: .25rem;
 }
 
 .u-text-center{
