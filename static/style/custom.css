@@ -102,7 +102,7 @@ summary{
 }
 
 .widget__content{
-    margin-left: .25rem;
+    margin: auto .25rem;
 }
 
 .u-text-center{
